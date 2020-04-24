@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2020-4-14, 21:49:28
+    Author     : ASUS
+*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./Image/SystemInfoBackground.png) no-repeat;
+    background-size: cover;
+    font-family: "Times New Roman", Times, serif;
+    color:whitesmoke;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ul li{
+    float: left;
+    width: 615px;
+    height: 40px;
+    background-color: midnightblue;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 4px;
+    
+}
+
+ul li a{
+    text-decoration:none;
+    color:whitesmoke;
+    display: block;
+}
+
+ul li a:hover{
+    background-color: skyblue;
+}
+
+ul li ul li{
+    display: none;
+}
+
+ul li:hover ul li{
+    display: block;
+}
+
+.intro{
+    position: absolute;   
+    top: 50%;   
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+
+h2{
+    line-height: 80px;
+    font-size:40px;
+}
+
+p{
+    line-height: 60px;
+    font-size: 30px;
+}
+
+p a{
+    color: whitesmoke;
+}
+
+p a:hover{
+    color:#0033cc;
+}
+
+
+
+
+

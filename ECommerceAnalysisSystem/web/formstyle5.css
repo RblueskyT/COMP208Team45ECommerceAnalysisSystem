@@ -1,0 +1,117 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align:center;
+    background: url(./Image/FormBackground.png) no-repeat;
+    background-size: cover;
+    font-family: "Times New Roman", Times, serif;
+    color:whitesmoke;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ul li{
+    float: left;
+    width: 615px;
+    height: 40px;
+    background-color: midnightblue;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 4px;
+    
+}
+
+ul li a{
+    text-decoration:none;
+    color:whitesmoke;
+    display: block;
+}
+
+ul li a:hover{
+    background-color: skyblue;
+}
+
+ul li ul li{
+    display: none;
+}
+
+ul li:hover ul li{
+    display: block;
+}
+
+.form{
+    width:600px;
+    height:525px;
+    background:#333ea6;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 30px ;
+}
+
+.form h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px; 
+}
+
+.form select{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: .5s;
+    background:#fff;
+    width:340px;
+    height: 25px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.form input{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.form input[type="text"]{
+    background:#fff;
+    width:340px;
+    height: 25px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.form input[type="submit"]{
+    position: relative;
+    border-radius: 25px 25px 25px 25px;
+    width: 150px;
+    height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #000099;
+    color: whitesmoke;
+}
+
+.form input[type="submit"]:hover{
+    background: #00cccc;
+}

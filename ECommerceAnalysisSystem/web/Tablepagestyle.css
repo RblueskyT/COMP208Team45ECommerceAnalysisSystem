@@ -1,0 +1,172 @@
+*
+{   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align:center;
+    background: url(./Image/ManageBackground.png) no-repeat;
+    background-size: cover;
+    font-family: "Times New Roman", Times, serif;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ul li{
+    float: left;
+    width: 615px;
+    height: 40px;
+    background-color: midnightblue;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 4px;
+    
+}
+
+ul li a{
+    text-decoration:none;
+    color:whitesmoke;
+    display: block;
+}
+
+ul li a:hover{
+    background-color: skyblue;
+}
+
+ul li ul li{
+    display: none;
+}
+
+ul li:hover ul li{
+    display: block;
+}
+
+.start input{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+.start select{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: .5s;
+    background:#fff;
+    width:340px;
+    height: 25px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.start input[type="text"]{
+    background:#fff;
+    width:340px;
+    height: 25px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.start input[type="submit"]{
+    position: relative;
+    border-radius: 25px 25px 25px 25px;
+    width: 150px;
+    height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #000099;
+    color: whitesmoke;
+}
+
+.start input[type="submit"]:hover{
+    background: #00cccc;
+}
+
+.table{
+    margin:auto;
+    width: 80%;
+    border-collapse: collapse; 
+}
+
+.table td, .table th{
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.table th{
+    background-color:#000099;
+    color: whitesmoke;
+}
+
+.table tbody tr:nth-child(even){
+    background-color: #f5f5f5;
+}
+
+.table tbody tr:nth-child(odd){
+    background-color:#00cccc;
+}
+
+.table tr a{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration:none;
+    color:#0033ff;
+}
+
+.table tr a:hover{
+    color:#99ccff;
+}
+
+.end{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+.end input[type="submit"]{
+    position: relative;
+    border-radius: 25px 25px 25px 25px;
+    width: 150px;
+    height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #000099;
+    color: whitesmoke;
+}
+
+.end input[type="submit"]:hover{
+    background: #00cccc;
+}
+
+
+
+
+ 
+
+
+
+
