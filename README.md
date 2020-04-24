@@ -1,3 +1,2 @@
 # COMP208Team45ECommerceAnalysisSystem
-All the sources of COMP208 Team 45 E-Commerce Analysis System (whole web application code, prediction model code and user manuals)
-1. For about Prediction model code, Commodity.sql, dataGenerator and dataAnalyst these three files are all the parts of it.
+These are all the sources codes and other files of COMP208 TEAM 45.
